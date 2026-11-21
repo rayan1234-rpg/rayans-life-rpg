@@ -1,0 +1,17 @@
+{
+  "name": "rayans-life-rpg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-first personal RPG",
+  "scripts": {
+    "android": "npx cap sync android",
+    "open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/android": "^6.2.0"
+  }
+}

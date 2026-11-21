@@ -1,0 +1,6 @@
+{
+  "appId": "com.rayan.liferpg",
+  "appName": "Rayan's Life RPG",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}

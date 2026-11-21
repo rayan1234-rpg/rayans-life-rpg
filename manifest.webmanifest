@@ -1,0 +1,10 @@
+{
+  "name": "Rayan's Life RPG",
+  "short_name": "Rayan RPG",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080d18",
+  "theme_color": "#090d18",
+  "description": "Offline-first real-life discipline RPG",
+  "icons": []
+}

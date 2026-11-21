@@ -1,0 +1,22 @@
+RAYAN'S LIFE RPG — ANDROID APK BUILD (ഫോൺ മാത്രം)
+
+ഈ ZIP-ൽ GitHub Actions വഴി സൗജന്യമായി APK ഉണ്ടാക്കാനുള്ള workflow ഉൾപ്പെടുത്തിയിട്ടുണ്ട്.
+കമ്പ്യൂട്ടർ/Android Studio ആവശ്യമില്ല. GitHub അക്കൗണ്ടും ഇന്റർനെറ്റും വേണം.
+
+1. Android-ൽ Files / ZArchiver ഉപയോഗിച്ച് ZIP extract ചെയ്യുക.
+2. https://github.com തുറന്ന് സൗജന്യ അക്കൗണ്ടിൽ sign in ചെയ്യുക.
+3. New repository സൃഷ്ടിക്കുക. പേര്: rayans-life-rpg. Public അല്ലെങ്കിൽ Private തിരഞ്ഞെടുക്കാം.
+4. Repository-യിൽ Add file > Upload files തിരഞ്ഞെടുക്കുക.
+5. Extract ചെയ്ത ഫോൾഡറിലെ എല്ലാ ഫയലുകളും ( .github ഫോൾഡർ ഉൾപ്പെടെ) upload ചെയ്യുക. ZIP ഫയൽ മാത്രം upload ചെയ്യരുത്.
+6. Commit changes അമർത്തുക.
+7. മുകളിലെ Actions tab തുറക്കുക. "Build Android APK" workflow തിരഞ്ഞെടുക്കുക.
+8. Run workflow അമർത്തി വീണ്ടും Run workflow ചെയ്യുക. Build പൂർത്തിയാകാൻ കുറച്ച് മിനിറ്റ് എടുക്കാം.
+9. വിജയിച്ചാൽ workflow run തുറന്ന് Artifacts ഭാഗത്തെ rayans-life-rpg-debug-apk download ചെയ്യുക.
+10. Download ചെയ്ത APK ZIP ആണെങ്കിൽ extract ചെയ്യുക. app-debug.apk തുറന്ന് Android ആവശ്യപ്പെട്ടാൽ ഈ source-ൽ നിന്ന് install allow ചെയ്യുക.
+
+မှ ശ്രദ്ധിക്കുക:
+- GitHub Actions-ന്റെ സൗജന്യ ഉപയോഗ പരിധികൾ ബാധകമാണ്; public repository-യിൽ സാധാരണയായി സൗജന്യമാണ്. പരിധി മാറാം.
+- ഇത് debug APK ആണ്; സ്വന്തം ഫോണിൽ പരീക്ഷിക്കാൻ പറ്റും. Play Store-ൽ പ്രസിദ്ധീകരിക്കാൻ release signing വേണം.
+- PIN ഒരു സാധാരണ ലോക്കാണ്; സുരക്ഷിതമായ അക്കൗണ്ട് പാസ്‌വേഡ് അല്ല.
+- Android Home/Back നിയന്ത്രണങ്ങൾ സാധാരണ app-ന് പൂർണ്ണമായി തടയാൻ കഴിയില്ല.
+- ഈ പ്രോജക്റ്റ് ഫോൺ മാത്രം ഉപയോഗിച്ച് APK compile ചെയ്യാനുള്ള workflow നൽകുന്നു; APK ഇതിനകം ഇതിൽ ഉൾപ്പെടുത്തിയിട്ടില്ല.
