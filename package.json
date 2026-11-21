@@ -1,8 +1,8 @@
 {
   "name": "rayans-life-rpg",
-  "version": "1.0.0",
+  "version":"2.0.0",
   "private": true,
-  "description": "Offline-first personal RPG",
+  "description": "Offline-first personal RPG with focus mini-games and Shadow Warrior evolution",
   "scripts": {
     "android": "npx cap sync android",
     "open:android": "npx cap open android"
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@capacitor/cli": "^6.2.0",
-    "@capacitor/android": "^6.2.0"
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/assets": "^3.0.5"
   }
 }
